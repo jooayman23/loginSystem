@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup/css/all.min.css">
+    <link rel="stylesheet" href="signup/css/bootstrap.min.css">
+    <link rel="stylesheet" href="signup/css/style.css">
+
+</head>
+<body>
+    <form id="upfORM">
+        <div class="container mx-auto mt-5 text-center">
+            <div class=" joo py-5 px-5 shadow-lg w-75 mx-auto">
+                <h1 class="text-info mb-4">Smart Login System</h1>
+                <input  placeholder="Enter Your Name" class="form-control mb-4 " id="upName" type="text" name="name">
+                <input placeholder="Enter Your Email" class="form-control mb-4" id="upEmail" type="email" name="Email">
+                <input placeholder="Enter Your password" class="form-control mb-4" id="upPassword" type="password" name="password">
+<p class="alert alert-danger d-none" id="alertName">At Least Two Characters Name</p>
+<p class="alert alert-danger d-none" id="alertEmail">Please Enter your valid Email</p>
+<p class="alert alert-danger d-none" id="alertPassword">At Least 8 characters<br>-One Uppercase At Least<br>-One Special Characters At Least<br>-One Number At Least</p>
+<p class="alert alert-danger d-none" id="existAlert">Email is already exist</p>
+<p class="alert alert-success d-none" id="successAlert">Success you can login</p>
+<button class="btn btn-outline-info w-100">Sign Up</button>
+<p class="text-white my-3">Do You have an account? <a href="signin/index.htm">Sign in</a></p>
+
+            </div>
+        </div>
+    </form>
+    
+
+
+
+    <script src="signup/js/bootstrap.bundle.min.js"></script>
+    <script src="signup/js/signup.js"></script>
+</body>
+</html>
